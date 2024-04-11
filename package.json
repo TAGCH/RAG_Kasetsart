@@ -1,0 +1,22 @@
+{
+    "name": "Kasetsart_RAG",
+    "version": "0.1.0",
+    "description": "RAG Web App with LlamaIndex",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server/server.js",
+      "dev": "nodemon server/server.js",
+      "client": "cd client && npm start",
+      "install-all": "npm install && cd client && npm install"
+    },
+    "dependencies": {
+      "cors": "^2.8.5",
+      "express": "^4.17.1",
+      "mongoose": "^5.13.2"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.13"
+    }
+  }
+  
+  
